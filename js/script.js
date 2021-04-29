@@ -11,15 +11,18 @@ for(var i = 1; i <= 100; i++) {
 
     // Calcolo i multipli contemporanei di 3 e 5
     if ((i%3) && (i%5) == 0){
-        console.log("FizzBuzz");;
+        console.log("FizzBuzz");
+        document.write(i + " multiplo per 3 e per 5 <br>");
     }
     // Calcolo i multipli di 5
     else if((i%5) == 0){
         console.log("Buzz");
+        document.write(i + " multiplo di 5 <br>")
     }
     // Calcolo i multipli di 3
     else if((i%3) == 0){
     console.log("Fizz");
+    document.write( i + " multiplo di 3 <br>")
     }
     // Stampo i valori NON multipli di 3 o 5
     else {
