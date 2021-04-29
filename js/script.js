@@ -4,3 +4,16 @@
 // Prima di partire a scrivere codice poniamoci qualche domanda:
 // Come faccio a sapere se un numero è divisibile per?
 // Abbiamo visto qualcosa di particolare che possiamo usare?
+
+// Stampo i numeri da 1 a 100
+
+for(var i = 1; i <= 100; i++) {
+    var i = (i++)
+    console.log(i);
+    document.getElementById("messaggio").innerHTML = i;
+
+    if ((i%5) == 0{
+        document
+    }
+}
+
