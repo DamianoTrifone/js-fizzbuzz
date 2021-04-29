@@ -8,20 +8,22 @@
 // Stampo i numeri da 1 a 100
 
 for(var i = 1; i <= 100; i++) {
-    var i = (i++)
-    console.log(i);
-    document.getElementById("messaggio").innerHTML = i;
 
-    if ((i%3) == 0){
-        console.log("Fizz");
+    // Calcolo i multipli contemporanei di 3 e 5
+    if ((i%3) && (i%5) == 0){
+        console.log("FizzBuzz");;
     }
-
-    if((i%5) == 0){
+    // Calcolo i multipli di 5
+    else if((i%5) == 0){
         console.log("Buzz");
     }
-
-    if((i%3) && (i%5) == 0){
-        console.log("FizzBuzz");
+    // Calcolo i multipli di 3
+    else if((i%3) == 0){
+    console.log("Fizz");
+    }
+    // Stampo i valori NON multipli di 3 o 5
+    else {
+        console.log(i);
     }
 }
 
